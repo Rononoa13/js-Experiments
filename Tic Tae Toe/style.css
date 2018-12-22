@@ -1,0 +1,8 @@
+
+table,td{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    /* cursor:pointer helps to click*/
+    cursor: pointer;
+}
