@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(to right,rgba(238, 5, 36, 0.5), rgba(34, 2, 175, 0.5));
+}
+.main{
+    position: relative;
+    top: 25%;
+    left: 30%;
+
+}
