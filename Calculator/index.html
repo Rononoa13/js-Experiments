@@ -24,10 +24,10 @@
             <table>
                 <tr>
                     <td>
-                        <input type="button" value="7" onclick="insert(7)" >
-                        <input type="button" value="8" onclick="insert(8)">
-                        <input type="button" value="9" onclick="insert(9)">
-                        <input type="button" value="C" onclick="clean()"> 
+                        <input type="button" value="+" onclick="insert('+')" >
+                        <input type="button" value="-" onclick="insert('-')">
+                        <input type="button" value="<" onclick="back()">
+                        <input type="button" value="AC" onclick="clean()"> 
                     </td>
                 </tr>
             </table>
@@ -37,19 +37,34 @@
                             <input type="button" value="4" onclick="insert(4)">
                             <input type="button" value="5" onclick="insert(5)">
                             <input type="button" value="6" onclick="insert(6)">
-                            <input type="button" value="<" onclick="back()">
+                            <input type="button" value="*" onclick="back()">
                         </td>
                     </tr>
                 </table>
+
+                <table>
+                    <tr>
+                        <td>
+                            <input type="button" value="7" onclick="insert(7)" >
+                            <input type="button" value="8" onclick="insert(8)">
+                            <input type="button" value="9" onclick="insert(9)">
+                            <input type="button" value="/" onclick="insert('/')"> 
+                        </td>
+                    </tr>
+                </table> 
+
                 <table>
                         <tr>
                             <td>
                                 <input type="button" value="1" onclick="insert(1)">
                                 <input type="button" value="2" onclick="insert(2)">
                                 <input type="button" value="3" onclick="insert(3)">
+                                <input id="equal" type="button" value="=" onclick="equals()">
                             </td>
                         </tr>
                 </table>
+                
+                
 
               
 

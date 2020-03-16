@@ -22,5 +22,9 @@ function back()
   document.form.textview.value = i.substring(0,i.length-1);
 }
 
+function equals()
+{
+  document.form.textview.value = eval(document.form.textview.value);
+}
 
 //document.getElementById('demo').onclick = insert;
