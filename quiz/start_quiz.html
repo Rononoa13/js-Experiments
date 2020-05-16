@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./start_quiz.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="questions">
+        <div id="quiz-question">
+        </div>
+        <div id="quiz-options">
+          <ul>
+            <li class="options">
+              <input type="radio" name="answer" id="myRadio"/>
+            </li>
+            <li class="options">
+              <input type="radio" name="answer" id="myRadio"/>
+            </li>
+            <li class="options">
+              <input type="radio" name="answer" id="myRadio"/>
+            </li>
+            <li class="options">
+              <input type="radio" name="answer" id="myRadio"/>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <input id="submit" type="submit" value = "Next" onclick="next()" />
+      <!-- <button type="submit" onclick="next()">Next</button> -->
+      
+      <script type="text/javascript">
+        // if(document.querySelector("#myRadio").checked.value === false) {
+        //   document.querySelector("#submit").disabled = true;
+        // } else {
+        //   document.querySelector("#submit").disabled = false;
+        // }
+          // if (document.getElementById("myRadio").checked === false) {
+          //    document.getElementById("submit").disabled = true;
+          //   } else if(document.getElementById("myRadio").checked === true){
+          //     document.getElementById("submit").disabled = false;
+          //   }
+
+      </script>
+
+      <script src="./app.js"></script>
+      </div>  
+</html>
