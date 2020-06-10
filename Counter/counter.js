@@ -13,7 +13,7 @@ btns.forEach(btn => {
         // console.log(e.currentTarget.classList); // Identifies current target for the event. 
         const classOfBtn = e.currentTarget.className; 
         // console.log(typeof(className)); // is of type string
-        console.log("Variable className -> " + classOfBtn);
+        // console.log("Variable className -> " + classOfBtn);
         if (classOfBtn === "btn- increase") {
             counter++;
         }
@@ -25,7 +25,14 @@ btns.forEach(btn => {
         }
         count.textContent = counter;
 
-        // This is another logix
+        if (counter > 0) {
+            document.getElementById("count").style.color = "blue";
+        } else if (counter < 0)
+        {
+            document.getElementById("count").style.color = "red";
+        }
+
+        // This is another logic
         // if (classOfBtn.contains("increase")) {
         //     counter++;
         // }
